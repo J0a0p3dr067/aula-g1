@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    height: 200em;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul {
+    margin: auto;
+    padding: 11px 11px 0px 11px;
+    margin-bottom: 11px;
+    max-width: 75%;
+    min-width: 150px;
+
+}
+
+header nav ul li {
+    margin: auto;
+    display: inline;
+    list-style-type: none;
+    /* display: table-cell; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+
+}
+
+header li img {
+    float: left;
+    padding-right: 8px;
+}
+header li img:hover {
+    color: #417ec4;
+}
+
+
+#ceu {
+    color: #365da0;
+}
+
+.ceu:hover {
+    border-bottom: 2px solid #365da0;
+
+}
+
+#vermelho_es {
+    color: #912f13;
+}
+
+.vermelho_es:hover {
+    border-bottom: 2px solid #912f13;
+}
+
+#verde {
+    color: #369559;
+}
+
+.verde:hover {
+    border-bottom: 2px solid #369559;
+}
+
+#laranja {
+    color: #e77d55;
+}
+
+.laranja:hover {
+    border-bottom: 2px solid #e77d55;
+}
+
+#rosado {
+    color: #b5282f;
+}
+
+.rosado:hover {
+    border-bottom: 2px solid #b5282f;
+}
+
+#azul {
+    color: #2c4c7d;
+}
+
+.azul:hover {
+    border-bottom: 2px solid #2c4c7d;
+}
+
+#vermelho {
+    color: #a52129;
+}
+
+.vermelho:hover {
+    border-bottom: 2px solid #a52129;
+}
+
+#acessa {
+    color: rgba(17, 17, 17, 0.822);
+}
+
+.acessa {
+
+    float: right;
+}
+
+#acessa:hover {
+    color: #417ec4;
+}
+
+main {
+    position: fixed;
+    width: 100%;
+
+    margin: auto;
+    background-color: #c3170b;
+    padding: 5px 0px 6px 0px;
+}
+
+main a {
+    color: white;
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+    font-weight: 900px;
+    margin-top: 0px;
+    font-size: 2.2em;
+    margin-bottom: 0px;
+}
+main input#pesquisa {
+    background-color: #a7140a;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+main img#lupa {
+    height: 26px;
+    float: left;
+}
